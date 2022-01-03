@@ -1,0 +1,59 @@
+.bodyparts {
+    border-color: black;
+    fill: #72B8FC;
+    cursor: pointer;
+}
+
+area.bodyparts {
+    fill: black;
+    stroke: gray;
+    /* Replace with none if you like*/
+    stroke-width: 4;
+    cursor: pointer;
+}
+
+area.bodyparts:hover {
+    stroke: black;
+}
+
+.note {
+    color: #d0745f;
+    cursor: pointer;
+    border-bottom: 1px dotted #d0745f;
+}
+
+
+/* This is the default Tooltipster theme (feel free to modify or duplicate and create multiple themes!): */
+
+.tooltipster-default {
+    position: absolute;
+    border-radius: 1px;
+    border: 1px solid #eee;
+    background: #fff;
+    color: #222;
+}
+
+
+/* Use this next selector to style things like font-size and line-height: */
+
+.tooltipster-default .tooltipster-content {
+    font: 16px/24px "Georgia", serif;
+    padding: 1em 1em 1em 1em;
+    overflow: hidden;
+    border-left: 5px solid #d0745f;
+}
+
+
+/* This next selector defines the color of the border on the outside of the arrow. This will automatically match the color and size of the border set on the main tooltip styles. Set display: none; if you would like a border around the tooltip but no border around the arrow */
+
+.tooltipster-default .tooltipster-arrow .tooltipster-arrow-border {
+    /* border-color: ... !important; */
+}
+
+
+/* If you're using the icon option, use this next selector to style them */
+
+.tooltipster-icon {
+    cursor: help;
+    margin-left: 4px;
+}
