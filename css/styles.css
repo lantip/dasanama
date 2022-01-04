@@ -1,3 +1,8 @@
+@font-face {
+    font-family: nykNgayogyan;
+    src: url("../font/nyk_Ngayogyan_New.otf") format("opentype");
+}
+
 .bodyparts {
     border-color: black;
     fill: #72B8FC;
@@ -41,6 +46,10 @@ area.bodyparts:hover {
     padding: 1em 1em 1em 1em;
     overflow: hidden;
     border-left: 5px solid #d0745f;
+}
+
+.tooltipster-default .tooltipster-content .jw {
+    font-family: 'nykNgayogyan', serif;
 }
 
 
