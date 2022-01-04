@@ -1,16 +1,11 @@
 $(document).ready(function() {
     var image = $('img');
-    var selectedItems = []
-        //$('#selections').html(selectedItems.length > 0 ? "<b>Selected body Parts: </b>" + selectedItems : "<b>Please select a body part</b>");
-
-    var defaultDipTooltip = '<b><u>Spine</u></b>';
-
     image.mapster({
         fillOpacity: 0.4,
         fillColor: "d42e16",
         strokeColor: "3320FF",
         strokeOpacity: 0.8,
-        strokeWidth: 1,
+        strokeWidth: 2,
         stroke: true,
         isSelectable: true,
         singleSelect: true,
@@ -23,7 +18,6 @@ $(document).ready(function() {
         maxWidth: 500,
         speed: 300,
         interactive: true,
-
         animation: 'grow',
         trigger: 'click'
     });
